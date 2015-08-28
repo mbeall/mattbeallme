@@ -29,3 +29,105 @@ A spark sets a fire ablaze, and similarly the Sparks Framework is made up of 'sp
 
 @import url("../flint/style.css");
 
+.navbar {
+  font-weight: 600;
+}
+
+@media (min-width: 768px) {
+  #masthead {
+    color: #013f73;
+    background-color: #0275d8;
+    background-image: url("http://mattbeall.me/wp-content/uploads/jp15_matt_cover.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 990px;
+    min-height: 330px;
+  }
+  .site-branding a,
+  .site-branding a:hover {
+    color: #013f73!important;
+  }
+}
+@media (min-width: 992px) {
+  #masthead {
+    background-size: 1200px;
+    min-height: 400px;
+  }
+}
+@media (min-width: 1200px) {
+  #masthead {
+    background-size: 1500px;
+    min-height: 500px;
+  }
+}
+
+.single #masthead {
+  display: none;
+}
+
+.btn-primary {
+  color: #ffffff;
+  background-color: #0275d8;
+  border-color: #0267bf;
+}
+.btn-primary:focus,
+.btn-primary.focus {
+  color: #ffffff;
+  background-color: #025aa5;
+  border-color: #012340;
+}
+.btn-primary:hover {
+  color: #ffffff;
+  background-color: #025aa5;
+  border-color: #014682;
+}
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+  color: #ffffff;
+  background-color: #025aa5;
+  border-color: #014682;
+}
+.btn-primary:active:hover,
+.btn-primary.active:hover,
+.open > .dropdown-toggle.btn-primary:hover,
+.btn-primary:active:focus,
+.btn-primary.active:focus,
+.open > .dropdown-toggle.btn-primary:focus,
+.btn-primary:active.focus,
+.btn-primary.active.focus,
+.open > .dropdown-toggle.btn-primary.focus {
+  color: #ffffff;
+  background-color: #014682;
+  border-color: #012340;
+}
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+  background-image: none;
+}
+.btn-primary.disabled,
+.btn-primary[disabled],
+fieldset[disabled] .btn-primary,
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled.focus,
+.btn-primary[disabled].focus,
+fieldset[disabled] .btn-primary.focus,
+.btn-primary.disabled:active,
+.btn-primary[disabled]:active,
+fieldset[disabled] .btn-primary:active,
+.btn-primary.disabled.active,
+.btn-primary[disabled].active,
+fieldset[disabled] .btn-primary.active {
+  background-color: #0275d8;
+  border-color: #0267bf;
+}
+.btn-primary .badge {
+  color: #0275d8;
+  background-color: #ffffff;
+}
